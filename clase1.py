@@ -85,17 +85,61 @@
 
 # cadenas de formato
 
-new_message = 5
-print(f"{new_message} new messages ")
+# new_message = 5
+# print(f"{new_message} new messages ")
 
 
-new = 5
-read = 2
+# new = 5
+# read = 2
 
-print(f" {new - read } unread messages")
+# print(f" {new - read } unread messages")
 
-print(f" {5} new message and {2} friends request") 
+# print(f" {5} new message and {2} friends request") 
 
+
+
+# condicionales 
+# if True:
+#     print("hello sebas")
+# if False:
+#     print("Hello false")
+
+
+# greet = True
+
+# if greet:
+#     print("True")
+
+
+# answer = "picasso"
+# if answer == "picasso":
+#     print(answer + "is correct!")
+# else:
+#     print("is wrong")
+
+# hour = 14
+# if hour < 12:
+#     print("Good morning")
+# elif hour <17:
+#     print("Good afternoon ")
+
+
+ride_type = "Black"
+credits = 4
+
+ride_price = 0
+final_price = 0
+
+if ride_type == "DooberX":
+    ride_price = 20.5
+elif ride_type == "Black":
+    ride_price = 37.9
+else:
+    ride_price = 18.7 
+
+
+print("Ride price")
+print(ride_price)
 
 
 
