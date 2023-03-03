@@ -177,3 +177,58 @@
 # add_shipping(200)
 
 #hola
+
+#tambien podemos anidar declaraciones (elfi)
+
+# def calculate(operator,x,y):
+#     if operator == "+":
+#         print(x+y)
+#     elif operator == "-":
+#         print(x-y)
+#     else:
+#         print(f"unknown: {operator }")
+
+# calculate ("+",40,30 )
+
+
+#cualquier tipo de valor puede servir como entrada o salida de una funcion de esta manera las funciones pueden hacer uso de las listas
+
+
+# def is_mltiplayer(players):
+#     print(len(players)== 2)
+
+
+# players = ["Freddy","Paul","Sebastian"]
+# is_mltiplayer(players)
+
+
+#funciones con bucles
+
+
+# def onboard_passengers(bookings):
+#     counter = 1
+#     while counter <= bookings:
+#         print(f"Passenger {counter} on board")
+#         counter+= 1
+
+# onboard_passengers(15)
+
+# def display_progress(total_files):
+#     for i in range(total_files):
+#         i+= 1
+#         print(f"downloading file {i} out of {total_files}")
+
+# display_progress(20)
+
+
+#la utilizacione de un bucle itera a  traves de una lista.
+
+
+# def halve_price(cart):
+#     for price in cart:
+#         print(f"New price: {price/2}")
+
+
+# cart_list = [5, 20, 8]
+# halve_price(cart_list)
+
