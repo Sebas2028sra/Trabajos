@@ -1,0 +1,32 @@
+
+from vizdoom import DoomGame
+
+def create_doom_game():
+    game = DoomGame()
+    game.load_config("basic.cfg")  # Carga la configuración del juego
+    game.init()  # Inicializa el juego
+    return game
+
+def main():
+    game = create_doom_game()
+    
+    episodes = 10  # Número de episodios a jugar
+    
+    for episode in range(episodes):
+        game.new_episode()  # Comienza un nuevo episodio
+        
+        while not game.is_episode_finished():
+            state = game.get_state()  # Obtiene el estado actual del juego
+            # Aquí puedes realizar acciones en el juego y obtener recompensas
+            # usando las API proporcionadas por la biblioteca
+            
+            # Por ejemplo, realizar una acción aleatoria
+            action = game.get_available_buttons_size()
+            game.make_action([0] * action)
+            
+        print("Episodio {} terminado. Recompensa total: {}".format(episode + 1, game.get_total_reward()))
+    
+    game.close()  # Cierra el juego al final
+
+if __name__ == "__main__":
+    main()
