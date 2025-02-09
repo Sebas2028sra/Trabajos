@@ -1,7 +1,7 @@
 #ctrl + k + c para comentar el codigo y ctrl + k + u para descomentar el codigo
 
-# last_name = "Rojas"+"Araya"
-# name = "Sebastian"
+# last_name = "Alfaro"+"Alvarado"
+# name = "Juan"
 # print(name+""+last_name)
 
 # diferentes definiciones de variables 
