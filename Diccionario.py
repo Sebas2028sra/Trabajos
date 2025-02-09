@@ -70,7 +70,7 @@ print(ticket)
 #comprobar que un diccionario tiene una clave
 
 datos_personales = {
-    "Nombre" : "Sebastian Rojas",
+    "Nombre" : "Juan Alfaro",
     "Telefono" : 6189023837
 }
 
